@@ -175,7 +175,7 @@ button {
    }
 }
 @media (orientation: landscape) {
-   navbutton, #Sidenav {
+   navbutton, #sidenav {
       display: none;
    }
 }
