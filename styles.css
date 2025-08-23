@@ -169,10 +169,13 @@ button {
       font-size: 36px;
       margin-left: 50px;
    }
-
+   header nav {
+      display: none;
+      opacity: 1;
+   }
 }
 @media (orientation: landscape) {
-   navbutton, #sidenav {
+   navbutton, #Sidenav {
       display: none;
    }
 }
