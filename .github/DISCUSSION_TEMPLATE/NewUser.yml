@@ -14,3 +14,14 @@ body:
     render: bash
   validations:
     required: true
+- type: dropdown
+  id: UserLogo
+  attributes:
+    label: "The logo of your OneStaler account:"
+    options:
+      - Documentation
+      - Pull request review time
+      - Bug fix time
+      - Release cadence
+  validations:
+    required: true
