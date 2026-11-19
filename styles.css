@@ -1,6 +1,8 @@
 :root {
   --header-height: 60px;
 }
+@import "/footer.css";
+
 body { 
    padding-top: 60px /*var(--header-height)*/; 
    font-family: 'Segoe UI', Arial, sans-serif; 
