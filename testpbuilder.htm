@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>OneStaller - Apps - <div id="app_title">Exemple App</div></title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style></style>
+        <link rel="stylesheet" href="/OneStaller/apps/styles.css">
+        <link rel="stylesheet" href="/OneStaller/styles.css">
+        <link rel="icon" type="image/x-icon" href="/OneStaller/assets/logo.png"></link>
+        <script src="/HttpReq.js"></script>
+    </head>
+    <body>
+        <header id="Bar"></header>
+        <script>includeHTML("Bar", "/OneStaller/Bar.htm");</script>
+        <div class="header-app">
+            <div class="app-icon"  style="background-image: url();">🟦</div>
+            <div class="app-info">
+                <div class="app-title" id="app_title">Exemple app</div><!-- TODO: Replace the CLASS by the ID in the configs. -->
+                <table>
+                    <tr>
+                        <td>
+                            <div class="app-version" id="app_version_latest">Version 1.0.0</div>
+                        </td>
+                        <td>
+                            <div class="app-version">
+                                <a style="color:transparent">--</a>
+                                -
+                                <a style="color:transparent">--</a>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="app-publisher" id="app_publisher">by <a href="/OneStaller/apps/publisher/">Admin.</a></div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <!--<div class="app-rating">★★★★☆ (4.0)</div>-->
+                        </td>
+                        <td></td>
+                        <td>
+                            <!--<div class="app-secure" style="color:red;" id="app_securisedby">✅ Securised by something</div>-->
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            <button class="install-btn" id="app_other_button">An other thing</button><!--<a style="color: transparent">===</a>--><button class="install-btn" id="app_install_button">Download</button><br>
+            </div>
+        </div>
+        <div class="main-content">
+            <div class="screenshots" id="app_content_screenshots">
+                <img src="SC1.png" onclick="window.open('SC1.png')" alt="screenshot 1">
+                <img src="SC2.png" onclick="window.open('SC2.png')" alt="screenshot 2">
+            </div>
+            <div class="description">
+                <h2 id="app_content_description_short">Description</h2>
+                <p id="app_content_description_long">
+                    APP DES
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
