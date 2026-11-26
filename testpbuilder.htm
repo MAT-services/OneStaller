@@ -9,6 +9,11 @@
         <link rel="stylesheet" href="/OneStaller/styles.css">
         <link rel="icon" type="image/x-icon" href="/OneStaller/assets/logo.png"></link>
         <script src="/HttpReq.js"></script>
+        <script>
+            // Source - https://stackoverflow.com/a/57192874
+            const params = new URLSearchParams(document.location.search);
+            const app_id = params.get("app"); // get the value of ?app
+        </script>
     </head>
     <body>
         <header id="Bar"></header>
